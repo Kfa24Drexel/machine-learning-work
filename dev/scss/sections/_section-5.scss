@@ -1,0 +1,309 @@
+/* =============
+    Section-5
+============= */
+#section-5 {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-5 .";
+    padding: 60px 0;
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+
+    @include md {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+    @include md {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+    @include md {
+>>>>>>> Stashed changes
+        padding: 54px;
+    }
+
+    @include lg {
+        padding: 100px 0;
+    }
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+
+    @include md {
+=======
+
+    @include md {
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+        padding: 54px 0;
+    }
+
+    @include lg {
+        padding: 100px 0;
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    ul {
+        display: grid;
+        grid-area: section-5;
+        grid-gap: 20px;
+        grid-template-areas: "gallery-7"
+            "gallery-1"
+            "gallery-1"
+            "gallery-6"
+            "gallery-3";
+        grid-template-rows: repeat(5, 235px);
+
+        @include md {
+            grid-template-areas: "gallery-1 gallery-3"
+                "gallery-1 gallery-7"
+                "gallery-5 gallery-6";
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 277px);
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 277px);
+=======
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 277px);
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 277px);
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+        }
+
+        @include lg {
+            grid-template-areas: "gallery-1 gallery-5 gallery-2"
+                "gallery-1 gallery-7 gallery-4"
+                "gallery-6 gallery-3 gallery-4";
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            grid-template-columns: repeat(3, 1fr);
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+                grid-template-columns: repeat(3, 1fr);
+=======
+            grid-template-columns: repeat(3, 1fr);
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            grid-template-columns: repeat(3, 1fr);
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+        }
+
+        li {
+            background-position: center;
+            background-size: cover;
+        }
+
+        #gallery-1 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+            background-image: url(../img/section-5/gallery-1.jpg);
+            grid-area: gallery-1;
+        }
+        
+        #gallery-2 {
+            background-image: url(../img/section-5/gallery-2.jpg);
+            
+=======
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            background-image: url('../img/section-5/gallery-1.jpg');
+            grid-area: gallery-1;
+        }
+
+        #gallery-2 {
+            background-image: url('../img/section-5/gallery-2.jpg');
+
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            @include lg {
+                grid-area: gallery-2;
+            }
+        }
+
+        #gallery-3 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            background-image: url('../img/section-5/gallery-3.jpg');
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+            background-image: url(../img/section-5/gallery-3.jpg);
+=======
+            background-image: url('../img/section-5/gallery-3.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            background-image: url('../img/section-5/gallery-3.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            background-position: center top;
+            grid-area: gallery-3;
+        }
+
+        #gallery-4 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            background-image: url('../img/section-5/gallery-4.jpg');
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+            background-image: url(../img/section-5/gallery-4.jpg);
+=======
+            background-image: url('../img/section-5/gallery-4.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            background-image: url('../img/section-5/gallery-4.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+
+            @include lg {
+                grid-area: gallery-4;
+            }
+        }
+
+        #gallery-5 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            background-image: url('../img/section-5/gallery-5.jpg');
+
+            @include md {
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+            background-image: url(../img/section-5/gallery-5.jpg);
+
+            @include md{
+=======
+            background-image: url('../img/section-5/gallery-5.jpg');
+
+            @include md {
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            background-image: url('../img/section-5/gallery-5.jpg');
+
+            @include md {
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+                grid-area: gallery-5;
+            }
+        }
+
+        #gallery-6 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            background-image: url('../img/section-5/gallery-6.jpg');
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+            background-image: url(../img/section-5/gallery-6.jpg);
+=======
+            background-image: url('../img/section-5/gallery-6.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+            background-image: url('../img/section-5/gallery-6.jpg');
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            grid-area: gallery-6;
+        }
+
+        #gallery-7 {
+            align-items: center;
+            color: $yellow;
+            display: flex;
+            font-family: 'Pacifico', cursive;
+            grid-area: gallery-7;
+            justify-content: center;
+
+            h1 {
+                font-size: rem-calc(43);
+                font-weight: 400;
+
+                @include md {
+                    font-size: rem-calc(46);
+                }
+            }
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+=======
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+        }
+    }
+}
